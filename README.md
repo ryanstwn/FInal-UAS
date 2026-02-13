@@ -60,15 +60,21 @@ Dataset yang digunakan adalah **Bike Sharing Dataset (Hourly)** dengan 17,379 re
 ```
 bike-sharing-analysis/
 │
-├── hour.csv                          # Raw dataset
-├── bike_sharing_analysis.ipynb       # Jupyter notebook dengan analisis lengkap
-├── dashboard.py                      # Streamlit dashboard application
-├── requirements.txt                  # Python dependencies
-├── README.md                         # Project documentation
+├── Dashboard/
+│   └── dashboard.py                 # Streamlit dashboard application
 │
-├── processed_hour.csv               # Processed hourly data (generated)
-├── processed_daily.csv              # Processed daily data (generated)
-└── cluster_analysis.csv             # Clustering results (generated)
+├── Dataset/
+│   ├── cluster_analysis.csv         # Clustering results
+│   ├── hour.csv                     # Raw dataset
+│   ├── processed_daily.csv          # Processed daily data
+│   └── processed_hour.csv           # Processed hourly data
+│
+├── Notebook/
+│   └── bike_sharing_analysis.ipynb  # Jupyter notebook analysis
+│
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project documentation
+
 ```
 
 ## 🚀 Installation & Usage
