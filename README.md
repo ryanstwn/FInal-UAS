@@ -1,3 +1,11 @@
+## 🤝 Kontribusi Kelompok 
+10124011 - Amhar Razka Ariyanto 
+10124025 - Rafli Zeirofi
+10124041 - Ryan Setiawan
+10124042 - Jaifar Husnayan Hakim
+10124043 - Aditia Pramudia
+10124475 - Daffa Rizky Ramadhan
+
 # 🚴 Bike Sharing Analytics Dashboard
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](your-dashboard-url-here)
@@ -6,46 +14,45 @@
 
 Dashboard analisis data bike sharing yang komprehensif dengan visualisasi interaktif dan insights strategis untuk bisnis bike sharing. Project ini merupakan submission untuk UAS dengan implementasi teknik analisis data lanjutan.
 
-### ✨ Features
-
-- **Interactive Dashboard**: Dashboard Streamlit dengan filter dinamis dan visualisasi real-time
-- **Advanced Analytics**: 
-  - Time Series Decomposition
+### ✨Fitur Utama
+- **Dashboard Interaktif**: Dashboard Streamlit dengan filter dinamis dan visualisasi real-time
+- **Analisis Lanjutan**: 
+  - Dekomposisi Time Series
   - K-Means Clustering
   - Principal Component Analysis (PCA)
-  - Statistical Correlation Analysis
+  - Analisis Korelasi Statistik
   - Pattern Mining
-- **Comprehensive Insights**: Business insights dan strategic recommendations
-- **Responsive Design**: Mobile-friendly interface
-- **Real-time Filtering**: Multi-dimensional data filtering
+- **Insight Komprehensif**: Insight bisnis dan rekomendasi strategis
+- **Desain Responsif**: Tampilan ramah mobile
+- **Filter Real-time**: Penyaringan data multi-dimensi
 
 ## 📊 Dataset
 
 Dataset yang digunakan adalah **Bike Sharing Dataset (Hourly)** dengan 17,379 records dan 17 variabel:
 
-**Temporal Variables:**
-- `dteday`: Date
-- `season`: Season (1-4)
-- `yr`: Year (0: 2011, 1: 2012)
-- `mnth`: Month (1-12)
-- `hr`: Hour (0-23)
-- `holiday`: Holiday indicator
-- `weekday`: Day of week
-- `workingday`: Working day indicator
+**Variabel Waktu (Temporal):**
+- `dteday`: Tanggal
+- `season`: Musim (1-4)
+- `yr`: Tahun (0: 2011, 1: 2012)
+- `mnth`: Bulan (1-12)
+- `hr`: Jam (0-23)
+- `holiday`: Indikator hari libur
+- `weekday`: Hari dalam minggu
+- `workingday`: Indikator hari kerja
 
-**Weather Variables:**
-- `weathersit`: Weather situation (1-4)
-- `temp`: Normalized temperature
-- `atemp`: Normalized feeling temperature
-- `hum`: Normalized humidity
-- `windspeed`: Normalized wind speed
+**Variabel Cuaca:**
+- `weathersit`: Kondisi cuaca (1-4)
+- `temp`: Suhu ternormalisasi
+- `atemp`: Suhu terasa (feels-like temperature)
+- `hum`: Kelembapan ternormalisasi
+- `windspeed`: Kecepatan angin ternormalisasi
 
-**Target Variables:**
-- `casual`: Casual users count
-- `registered`: Registered users count
-- `cnt`: Total rental bikes count
+**Variabel Target:**
+- `casual`: Jumlah pengguna casual
+- `registered`: Jumlah pengguna terdaftar
+- `cnt`: Total penyewaan sepeda
 
-## 🛠️ Technologies Used
+## 🛠️ Teknologi yang Digunakan
 
 - **Python 3.8+**
 - **Data Analysis**: Pandas, NumPy
@@ -55,7 +62,7 @@ Dataset yang digunakan adalah **Bike Sharing Dataset (Hourly)** dengan 17,379 re
 - **Dashboard**: Streamlit
 - **Deployment**: Streamlit Cloud
 
-## 📁 Project Structure
+## 📁 Struktur Proyek
 
 ```
 bike-sharing-analysis/
@@ -77,155 +84,100 @@ bike-sharing-analysis/
 
 ```
 
-## 🚀 Installation & Usage
-
-### Local Development
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/bike-sharing-analysis.git
-cd bike-sharing-analysis
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run Jupyter Notebook** (for analysis)
-```bash
-jupyter notebook bike_sharing_analysis.ipynb
-```
-
-4. **Run Streamlit Dashboard**
-```bash
-streamlit run dashboard.py
-```
-
-Dashboard akan terbuka di browser pada `http://localhost:8501`
-
-### Cloud Deployment (Streamlit Cloud)
-
-1. Push repository ke GitHub
-2. Login ke [share.streamlit.io](https://share.streamlit.io)
-3. Deploy aplikasi dengan memilih repository
-4. Dashboard akan tersedia di URL public
-
-## 📈 Analysis Methodology
+## 📈 Metodologi Analisis
 
 ### 1. Data Preprocessing & Feature Engineering
-- Data cleaning dan validation
-- Missing value handling
-- Feature creation (time of day, rush hour indicator, temperature categories)
-- Date-time feature extraction
+- Pembersihan dan validasi data
+- Penanganan missing value
+- Pembuatan fitur baru (time of day, indikator rush hour, kategori suhu)
+- Ekstraksi fitur tanggal dan waktu
 
 ### 2. Exploratory Data Analysis (EDA)
-- Distribusi target variables
-- Temporal pattern analysis
-- Seasonal analysis
-- Weather impact analysis
-- Correlation analysis
+- Distribusi variabel target
+- Analisis pola waktu
+- Analisis musiman
+- Analisis pengaruh cuaca
+- Analisis korelasi
 
-### 3. Advanced Analytics
+### 3. Analisis Lanjutan
 
-#### Time Series Analysis
-- Trend identification
-- Seasonal decomposition
+#### Analisis Time Series
+- Identifikasi tren
+- Dekomposisi musiman
 - Moving averages
-- Pattern detection
+- Deteksi pola
 
-#### Clustering Analysis (K-Means)
-- Optimal cluster determination (Elbow method)
-- User segmentation
-- PCA for dimensionality reduction
-- Cluster profiling
+#### Analisis Clustering (K-Means)
+- Penentuan jumlah cluster optimal (Metode Elbow)
+- Segmentasi pengguna
+- PCA untuk reduksi dimensi
+- Profiling cluster
 
-#### Statistical Analysis
-- Pearson correlation with significance testing
-- Hypothesis testing
-- Distribution analysis
+#### Analisis Statistik
+- Korelasi Pearson dengan uji signifikansi
+- Pengujian hipotesis
+- Analisis distribusi
 
-### 4. Business Insights & Recommendations
-- Peak hour identification
-- User behavior patterns
-- Weather-based strategies
-- Resource optimization recommendations
+### 4. Insight Bisnis & Rekomendasi
+- Identifikasi jam puncak penggunaan
+- Analisis pola perilaku pengguna
+- Strategi berbasis kondisi cuaca
+- Rekomendasi optimasi penggunaan sumber daya
 
-## 📊 Key Findings
+## 📊 Temuan Utama
 
-### 🎯 Usage Patterns
-- **Peak Hours**: 7-9 AM and 5-7 PM (commuting hours)
-- **Best Season**: Fall shows highest average rentals
-- **User Distribution**: ~80% registered users, ~20% casual users
+### 🎯 Pola Penggunaan
+- **Jam Puncak**: 07–09 pagi dan 17–19 sore (jam kerja)
+- **Musim Terbaik**: Musim gugur memiliki rata-rata penyewaan tertinggi
+- **Distribusi Pengguna**: ±80% pengguna registered, ±20% pengguna casual
 
-### 🌤️ Weather Impact
-- Strong positive correlation with temperature (r > 0.4)
-- Clear weather shows 3-4x more rentals than rainy conditions
-- Optimal temperature range: 15-25°C
+### 🌤️ Pengaruh Cuaca
+- Korelasi positif kuat dengan suhu (r > 0.4)
+- Cuaca cerah menghasilkan penyewaan 3–4x lebih banyak dibanding hujan
+- Rentang suhu optimal: 15–25°C
 
-### 👥 User Segmentation
-- **Registered Users**: Consistent commuting pattern, weather-resistant
-- **Casual Users**: Weekend-focused, weather-sensitive, leisure-oriented
+### 👥 Segmentasi Pengguna
+- **Pengguna Registered**: Pola commuting konsisten, lebih tahan terhadap cuaca
+- **Pengguna Casual**: Dominan akhir pekan, sensitif terhadap cuaca
 
-### 🎯 Clustering Insights
-- 4 distinct hour clusters identified
-- High-demand periods (7-9 AM, 5-7 PM)
-- Low-demand periods (0-5 AM)
-- Moderate-demand periods (daytime, evening)
+### 🎯 Insight Clustering
+- Teridentifikasi 4 cluster jam penggunaan
+- Permintaan tinggi: (07–09 & 17–19)
+- Permintaan rendah: (00–05)
+- Permintaan sedang: siang hingga malam
 
-## 💡 Business Recommendations
+## 💡 Rekomendasi Bisnis
 
-1. **Resource Optimization**
-   - Increase bike availability during peak hours (7-9 AM, 5-7 PM)
-   - Reduce maintenance activities during high-demand periods
+1. **Optimasi Sumber Daya**
+   - Tambah sepeda saat jam puncak (07-09, 17-19)
+   - Hindari maintenance saat demand tinggi
 
 2. **Dynamic Pricing**
-   - Implement surge pricing during rush hours
-   - Offer discounts during off-peak hours
+   - Harga dinamis saat rush hour
+   - Diskon saat off-peak
 
-3. **Marketing Strategy**
-   - Focus on converting casual to registered users
-   - Weather-based promotional campaigns
-   - Season-specific marketing (target Fall season)
+3. **Manajemen Armada**
+   - Konversi pengguna kasual menjadi pengguna tetap
+   - Promosi berbasis cuaca
+   - Kampanye musiman
 
 4. **Fleet Management**
-   - Use clustering insights for bike redistribution
-   - Predictive maintenance scheduling
+   - Redistribusi sepeda berdasarkan cluster
+   - Penjadwalan maintenance prediktif
 
 5. **User Experience**
-   - Develop weather alerts for users
-   - Loyalty programs for registered users
-   - Weekend special packages for casual users
+   - Notifikasi cuaca untuk pengguna
+   - Program loyalitas untuk pengguna registered 
+   - Paket akhir pekan untuk penguna casual 
 
-## 📸 Dashboard Screenshots
+## 📸 Tampilan Dashboard
 
 *Dashboard akan menampilkan:*
 - Key Performance Metrics
-- Interactive time series charts
-- Heatmaps untuk pattern analysis
-- Weather impact visualizations
-- User segmentation analysis
-- Clustering visualization dengan PCA
+- Grafik time series interaktif
+- Heatmap analisis pola
+- Visualisasi pengaruh cuaca
+- Analisis segmentasi pengguna
+- Visualisasi clustering berbasis PCA
 
-## 🎓 Academic Context
-
-**Project Type**: Final Exam Submission (UAS)  
-**Course**: Data Analytics / Data Science  
-**Grading Criteria**:
-- ✅ Advanced analysis techniques (Clustering, Time Series)
-- ✅ Interactive dashboard with Streamlit
-- ✅ Well-documented Jupyter notebook
-- ✅ Comprehensive insights and recommendations
-- ✅ Deployed to cloud platform
-
-**Expected Grade**: 90/100
-- All mandatory requirements fulfilled
-- Advanced analysis techniques implemented
-- Clean and well-documented code
-- Professional dashboard design
-- Strategic business insights
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
+  
